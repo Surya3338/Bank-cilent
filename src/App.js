@@ -21,7 +21,7 @@ function App() {
       <div className="nav-container">
         <Navbar>
           <Container>
-            <Navbar.Brand href="#/">MERN</Navbar.Brand>
+            <Navbar.Brand href="#/">SURIYA</Navbar.Brand>
             <span className="boxone"></span>
             <span className="boxthree"></span>
             <span className="boxtwo"></span>
