@@ -1,0 +1,121 @@
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+.nav-conatainer{
+  width: 100%;
+}
+.navboxx{
+  width: 80%;
+  height: 50px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.7);
+
+  z-index: 11;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0px 0px 20px 20px;
+
+}
+.navboxx > p{
+  color: white;
+  margin: 0px 0px 0px 140px ;
+  font-size: 1.5rem;
+}
+.boxsix{
+  position: absolute;
+  width: 10px ;
+  background-color: white;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 281.6px;
+  
+
+}
+.navbar {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  height: 100px;
+
+  margin: 0px auto;
+
+}
+.boxone{
+  width: 10px ;
+  background-color: white;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+.boxtwo{
+  position: absolute;
+  width: 10px ;
+  background-color: white;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+}
+
+.boxthree{
+  width: 60px;
+  height: 10px ;
+  background-color: white;
+  position: absolute;
+
+  left: 400px;
+}
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.8rem;
+  color: white;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+
+  color: #ffc107;
+}
+
+.navbar-nav {
+  margin-left: 500px;
+  display: flex;
+  justify-content: space-around;
+  width: 1300px;
+}
+.boxfour {
+  position: absolute;
+  width: 15px;
+  background-color: white;
+  height: 50px;
+  bottom: 0;
+  right: 20px;
+  transform: skew(50deg);
+}
+.boxfive {
+  position: absolute;
+  width: 15px;
+  background-color: white;
+  height: 50px;
+  top: 0;
+  right: 20px;
+  transform: skew(-50deg);
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+  }
+}
+

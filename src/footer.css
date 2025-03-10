@@ -1,0 +1,14 @@
+/* Footer styles */
+.footer {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
