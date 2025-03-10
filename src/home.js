@@ -28,7 +28,7 @@ function Home() {
         </div>
       </section>
       <div className="imageBox">
-        <img src="C:\Users\surya\Downloads\Unlock Top Best Passive Income Ideas to Boost Your Earnings in 2024.jpeg"/>
+        <img src="https://i.pinimg.com/736x/37/d9/72/37d972b0ea5a1cb1af241f5dd39aa48b.jpg"/>
       </div>
       </div>
       
